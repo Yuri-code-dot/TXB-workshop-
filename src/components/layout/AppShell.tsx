@@ -19,7 +19,7 @@ export function AppShell() {
   if (!hydrated) return <div className="grid min-h-dvh place-items-center bg-[#0b1020] text-slate-300"><div className="text-center"><div className="mx-auto mb-4 h-14 w-14 animate-pulse rounded-3xl bg-sky-400/25"/><p>Loading TXB Workspace…</p></div></div>;
   return <div className="flex h-dvh flex-col overflow-hidden bg-[#0b1020] text-slate-100">
     <TopBar />
-    <main className="min-h-0 flex flex-1 overflow-hidden">
+    <main className="min-h-0 flex flex-1 overflow-hidded flex-col lg:flex-row">
       <FileExplorer />
       <section className="min-w-0 flex-1">
         <div className="hidden h-full lg:block"><CodeEditor /></div>

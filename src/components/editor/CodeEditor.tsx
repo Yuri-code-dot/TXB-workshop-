@@ -23,7 +23,7 @@ export function CodeEditor() {
     cursorSmoothCaretAnimation: 'off',
     renderWhitespace: 'selection',
     automaticLayout: true,
-    padding: { top: 12, bottom: 90 },
+    padding: { top: 0, bottom: 90 },
     scrollbar: { verticalScrollbarSize: 8, horizontalScrollbarSize: 8, alwaysConsumeMouseWheel: false },
     quickSuggestions: false,
     suggestOnTriggerCharacters: false
