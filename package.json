@@ -1,0 +1,40 @@
+{
+  "name": "txb-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "TXB Workspace - mobile-first VS Code-inspired development environment for smartphones and tablets.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "lint": "eslint .",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "latest",
+    "@vitejs/plugin-react": "latest",
+    "vite-plugin-pwa": "latest",
+    "monaco-editor": "latest",
+    "zustand": "latest",
+    "idb": "latest",
+    "jszip": "latest",
+    "prettier": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "eslint-plugin-react-refresh": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest",
+    "@tailwindcss/postcss": "latest"
+  }
+}
